@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.main-bg {
+  background: linear-gradient(135deg, #3d506d, #8a39b4);
+}
+
+/* LOGIN + SIGNUP */
+.login-card {
+  width: 390px;
+  background: #f1f4fb;
+  padding: 35px 22px 20px;
+  border-radius: 4px;
+}
+
+.custom-input {
+  height: 42px;
+  border: 1px solid #d7dce4;
+  background-color: #eef2f8;
+}
+
+.sign-btn {
+  background-color: #3446b7;
+  color: white;
+  font-weight: 700;
+  border: none;
+  height: 42px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.sign-btn:hover {
+  background-color: #2d3da1;
+  color: white;
+}
+
+.signup-text {
+  font-size: 13px;
+  font-weight: 700;
+  color: #333;
+}
+
+.link-text {
+  color: #3446b7;
+  cursor: pointer;
+}
+
+.link-text:hover {
+  text-decoration: underline;
+}
+
+/* DASHBOARD */
+.dashboard-container {
+  max-width: 700px;
+}
+
+.dashboard-line {
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  margin-bottom: 25px;
+}
+
+.create-btn {
+  background: #f4f1ee;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-weight: 700;
+  border: none;
+  color: #333;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.create-btn:hover {
+  background: #ffffff;
+}
+
+.logout-icon-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 22px;
+}
+
+.dashboard-input,
+.filter-select,
+.search-icon {
+  background-color: #dbe5f2 !important;
+  border: none !important;
+  height: 42px;
+}
+
+.search-icon {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.filter-select {
+  max-width: 200px;
+}
+
+.task-card {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.status-dropdown {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background: transparent;
+  padding: 6px 4px;
+  min-width: 120px;
+}
+
+.delete-btn {
+  border: none;
+  background: transparent;
+  color: #ff4a4a;
+  font-size: 22px;
+  margin-top: auto;
+}
+
+.delete-btn:hover {
+  color: #d62c2c;
+}

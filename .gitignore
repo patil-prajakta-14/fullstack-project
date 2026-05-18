@@ -1,0 +1,15 @@
+# React
+Frontend/node_modules/
+Frontend/build/
+
+# ASP.NET Core
+Backend/bin/
+Backend/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Environment files
+.env
