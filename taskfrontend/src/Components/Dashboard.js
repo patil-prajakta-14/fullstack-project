@@ -24,7 +24,7 @@ function Dashboard({ user, onLogout }) {
     }
   }, [user]);
 
-x
+
   const handleAddTask = async () => {
     const title = prompt("Enter task title:");
     const description = prompt("Enter task description:");
