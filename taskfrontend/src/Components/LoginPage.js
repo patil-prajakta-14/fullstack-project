@@ -9,7 +9,7 @@ function LoginPage({ setUser, goToSignup }) {
     e.preventDefault();
 
     try {
-      const res = await axios.post("https://localhost:7247/api/Auth/login", {
+      const res = await axios.post("https://fullstack-project-4b7d.onrender.com/api/Auth/login", {
         username,
         password,
       });

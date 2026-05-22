@@ -16,7 +16,7 @@ function SignupPage({ goToLogin }) {
     }
 
     try {
-      await axios.post("https://localhost:7247/api/Auth/signup", {
+      await axios.post("https://fullstack-project-4b7d.onrender.com/api/Auth/signup", {
         fullName,
         username,
         password,

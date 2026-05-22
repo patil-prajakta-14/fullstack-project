@@ -6,7 +6,7 @@ function Dashboard({ user, onLogout }) {
   const [search, setSearch] = useState("");
   const [filterStatus, setFilterStatus] = useState("All");
 
-  const API_URL = "https://localhost:7247/api/Tasks"; // change if your port is different
+  const API_URL = "https://fullstack-project-4b7d.onrender.com/api/Tasks"; // change if your port is different
 
   const fetchTasks = async () => {
     try {
