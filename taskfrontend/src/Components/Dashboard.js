@@ -18,19 +18,13 @@ function Dashboard({ user, onLogout }) {
     }
   };
 
-  // useEffect(() => {
-  //   if (user?.userId) {
-  //     fetchTasks();
-  //   }
-  // }, [user]);
-
-
   useEffect(() => {
-      if (user?.userId) {
-          fetchTasks();
-      }
-  }, [user, fetchTasks]);
+    if (user?.userId) {
+      fetchTasks();
+    }
+  }, [user]);
 
+x
   const handleAddTask = async () => {
     const title = prompt("Enter task title:");
     const description = prompt("Enter task description:");

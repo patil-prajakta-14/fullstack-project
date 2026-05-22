@@ -84,3 +84,4 @@ D:\.NET\TaskManagerProject\TaskBackend\TaskBackend\obj\Debug\net8.0\TaskBackend.
 D:\.NET\TaskManagerProject\TaskBackend\TaskBackend\obj\Debug\net8.0\TaskBackend.genruntimeconfig.cache
 D:\.NET\TaskManagerProject\TaskBackend\TaskBackend\obj\Debug\net8.0\ref\TaskBackend.dll
 D:\.NET\TaskManagerProject\TaskBackend\TaskBackend\obj\Debug\net8.0\swae.build.ex.cache
+D:\.NET\TaskManagerProject\TaskBackend\TaskBackend\obj\Debug\net8.0\TaskBackend.sourcelink.json
