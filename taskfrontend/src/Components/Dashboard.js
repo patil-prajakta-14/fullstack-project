@@ -18,11 +18,17 @@ function Dashboard({ user, onLogout }) {
     }
   };
 
-  useEffect(() => {
+  // useEffect(() => {
+  //   if (user?.userId) {
+  //     fetchTasks();
+  //   }
+  // }, [user]);
+
+    useEffect(() => {
     if (user?.userId) {
       fetchTasks();
-    }
-  }, [user]);
+     }
+    }, [user, fetchTasks]);
 
 
   const handleAddTask = async () => {
