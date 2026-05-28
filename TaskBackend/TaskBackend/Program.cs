@@ -16,7 +16,11 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowReactApp",
         policy =>
         {
-            policy.WithOrigins("https://frontend-project-2elo.vercel.app/")
+            policy.WithOrigins(
+                      "https://frontend-project-2elo.vercel.app",
+                      "https://fullstack-project-eight-inky.vercel.app",
+                      "http://localhost:3000"
+                  )
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });
